@@ -4,9 +4,9 @@
 
 |                     |                     |
 | ------------------- | --------------------|
-| **Description**     | AniRogu alternate system using React.JS |
+| **Description**     | A Japanese Sakura themed sample Portfolio build it React.JS and Tailwind CSS. |
 | **Project Started**    | March 4, 2025 |
-| **Current Version** | v0.0.1| 
+| **Current Version** | v0.0.1 | 
 
 
 ## Technologies Used for this Application
