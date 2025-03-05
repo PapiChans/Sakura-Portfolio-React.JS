@@ -5,8 +5,8 @@
 |                     |                     |
 | ------------------- | --------------------|
 | **Description**     | A Japanese Sakura themed sample Portfolio build it React.JS and Tailwind CSS. |
-| **Project Started**    | March 4, 2025 |
-| **Current Version** | v0.0.1 | 
+| **Project Duration**    | March 4, 2025 - Present |
+| **Current Version** | v0.0.2 | 
 
 
 ## Technologies Used for this Application
