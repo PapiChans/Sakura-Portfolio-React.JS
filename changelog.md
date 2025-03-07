@@ -10,3 +10,10 @@
 - Remove unused files
 - Modified: Index.html, app.js and index.js
 - Remove the default landing page to start a project
+
+**v0.0.3**
+- March 7, 2025
+- Add Sakura Logo
+- rename App.JS and CSS into Main
+- Install Tailwind.CSS
+- Add Two Fonts
