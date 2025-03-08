@@ -17,3 +17,10 @@
 - rename App.JS and CSS into Main
 - Install Tailwind.CSS
 - Add Two Fonts
+
+**v0.0.4**
+- March 8, 2025
+- Modify Scrollbar
+- Redesign Navbar
+- Add two more contents.
+- Import Ionicons
