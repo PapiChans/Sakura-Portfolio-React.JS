@@ -24,3 +24,10 @@
 - Redesign Navbar
 - Add two more contents.
 - Import Ionicons
+
+**v0.0.5**
+- March 10, 2025
+- Add Sidebar for Responsive
+- Add Background
+- Modify Tailwind Modifier
+- FIX Google Fonts
