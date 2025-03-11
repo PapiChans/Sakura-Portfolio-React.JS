@@ -31,3 +31,7 @@
 - Add Background
 - Modify Tailwind Modifier
 - FIX Google Fonts
+
+**v0.0.6**
+- March 11, 2025
+- Add Navbar and Sidebar functions (Except Animations);
