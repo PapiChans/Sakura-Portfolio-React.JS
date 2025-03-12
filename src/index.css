@@ -38,3 +38,26 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #e779a7;
 }
+
+/* Animations */
+@keyframes navbar-appear {
+  from
+  {
+    translate: 0 20px;
+    opacity: 0;
+  }
+  to 
+  {
+    translate: 0 0;
+    opacity: 100;
+  }
+}
+
+#navbar {
+  animation-name: navbar-appear;
+  animation-duration: 1s;
+}
+
+.h-img {
+  height: 40rem;
+}

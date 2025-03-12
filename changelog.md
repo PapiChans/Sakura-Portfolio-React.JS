@@ -35,3 +35,8 @@
 **v0.0.6**
 - March 11, 2025
 - Add Navbar and Sidebar functions (Except Animations);
+
+**v0.0.7**
+- March 12, 2025
+- Add Shikimori-san
+- Ongoing: Home Content

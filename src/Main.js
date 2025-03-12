@@ -1,5 +1,6 @@
 import './Main.css';
 import logo from './images/sakura-logo.png';
+import shikimori from './images/figure/Shikimori_Micchon_cropped.png';
 import { useState, useEffect } from 'react';
 
 export function Navbar() {
@@ -29,7 +30,7 @@ export function Navbar() {
   return (
     <>
       <div className='mt-4 flex z-10 fixed w-full px-4 md:px-10 sm:px-6'>
-          <nav className='bg-stone-50 w-full h-12 border-2 border-pink-200 rounded-2xl flex items-center px-4 bg-opacity-50'>
+          <nav id='navbar' className='bg-stone-50 w-full h-12 border-2 border-pink-200 rounded-2xl flex items-center px-4 bg-opacity-50'>
             <div className='h-full flex items-center w-2/12'>
               <img src={logo} className='h-8 w-8 cursor-pointer' alt='Logo'></img>
             </div>
@@ -146,9 +147,19 @@ export function NavbarMenu({ toggleMenu }) {
 export function Home() {
   return (
     <>
-      <div id="home" className="h-screen w-full pt-24 px-8 bg-gradient-to-b from-pink-200 to-pink-300">
-        <div className='w-full h-full'>
-          <div className='w-1/2 h-5/6 bg-slate-50'></div>
+      <div id="home" className="h-screen w-full pt-20 px-8 bg-gradient-to-b from-pink-400 to-slate-50">
+        <div className='w-full h-full block md:flex sm:block'>
+          <div className='w-full md:h-5/6 sm:h-auto h-auto md:w-3/5 sm:w-full flex justify-center items-start md:items-center sm:items-start px-4 pb-4'>
+            <div className='h-56 w-56 sm:h-80 sm:w-80 md:h-96 md:w-96 flex justify-center items-start bg-gradient-to-b from-transparent to-pink-50 rounded-full bg-opacity-10 shadow-lg overflow-y-hidden'>
+                <img src={shikimori} className='h-full w-full saturate-150' alt='shikimori'></img>
+            </div>
+          </div>
+          <div className='w-full md:h-5/6 sm:h-full h-full md:w-2/5 sm:w-full flex items-end md:items-center sm:items-end p-4'>
+              <div className='w-full -mt-28'>
+                <h1 className='ff-rowdies text-slate-50 text-2xl m-4 cursor-pointer'>Hello, I'm <span className='text-pink-500'>PapiChans</span></h1>
+
+              </div>
+          </div>
         </div>
       </div>
     </>
@@ -159,6 +170,7 @@ export function About() {
   return (
     <>
       <div id="about" className="h-screen w-full bg-slate-50 p-12">
+        Hello World
       </div>
     </>
   )
