@@ -40,3 +40,8 @@
 - March 12, 2025
 - Add Shikimori-san
 - Ongoing: Home Content
+
+**v0.0.8**
+- March 17, 2025
+- Adding the Content for Home (Incomplete)
+- Remove glow CSS

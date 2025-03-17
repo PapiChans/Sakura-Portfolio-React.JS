@@ -1,6 +1,6 @@
 import './Main.css';
 import logo from './images/sakura-logo.png';
-import shikimori from './images/figure/Shikimori_Micchon_cropped.png';
+import shikimori from './images/figure/Shikimori_cropped.png';
 import { useState, useEffect } from 'react';
 
 export function Navbar() {
@@ -36,16 +36,16 @@ export function Navbar() {
             </div>
             <div className='h-full flex items-center justify-end w-10/12'>
                 <div className='flex md:hidden sm:flex'>
-                    <ion-icon onClick={toggleMenu} id="open-button" name="menu" className='text-gray-500 transition hover:text-pink-300 hover:ease-in-out text-2xl cursor-pointer'></ion-icon>
+                    <ion-icon onClick={toggleMenu} id="open-button" name="menu" className='text-gray-500 transition hover:text-pink-500 hover:ease-in-out text-2xl cursor-pointer'></ion-icon>
                 </div>
                 <div className='hidden md:flex sm:hidden'>
                     <ul className='flex cursor-pointer ff-poppins font-medium text-stone-700'>
-                      <a href='#home'><li className='tracking-wider mx-2 hover:text-pink-300 transition hover:ease-in-out'>Home</li></a>
-                      <a href='#about'><li className='tracking-wider mx-2 hover:text-pink-300 transition hover:ease-in-out'>About</li></a>
-                      <a href='#skills'><li className='tracking-wider mx-2 hover:text-pink-300 transition hover:ease-in-out'>Skills</li></a>
-                      <a href='#experiences'><li className='tracking-wider mx-2 hover:text-pink-300 transition hover:ease-in-out'>Experiences</li></a>
-                      <a href='#projects'><li className='tracking-wider mx-2 hover:text-pink-300 transition hover:ease-in-out'>Projects</li></a>
-                      <a href='#contact'><li className='tracking-wider mx-2 hover:text-pink-300 transition hover:ease-in-out'>Contact</li></a>
+                      <a href='#home'><li className='tracking-wider mx-2 hover:text-pink-500 transition hover:ease-in-out'>Home</li></a>
+                      <a href='#about'><li className='tracking-wider mx-2 hover:text-pink-500 transition hover:ease-in-out'>About</li></a>
+                      <a href='#skills'><li className='tracking-wider mx-2 hover:text-pink-500 transition hover:ease-in-out'>Skills</li></a>
+                      <a href='#experiences'><li className='tracking-wider mx-2 hover:text-pink-500 transition hover:ease-in-out'>Experiences</li></a>
+                      <a href='#projects'><li className='tracking-wider mx-2 hover:text-pink-500 transition hover:ease-in-out'>Projects</li></a>
+                      <a href='#contact'><li className='tracking-wider mx-2 hover:text-pink-500 transition hover:ease-in-out'>Contact</li></a>
                     </ul>
                 </div>
             </div>
@@ -147,18 +147,20 @@ export function NavbarMenu({ toggleMenu }) {
 export function Home() {
   return (
     <>
-      <div id="home" className="h-screen w-full pt-20 px-8 bg-gradient-to-b from-pink-400 to-slate-50">
+      <div id="home" className="h-screen w-full pt-20 px-8 bg-gradient-to-b from-pink-400 to-pink-100">
         <div className='w-full h-full block md:flex sm:block'>
-          <div className='w-full md:h-5/6 sm:h-auto h-auto md:w-3/5 sm:w-full flex justify-center items-start md:items-center sm:items-start px-4 pb-4'>
-            <div className='h-56 w-56 sm:h-80 sm:w-80 md:h-96 md:w-96 flex justify-center items-start bg-gradient-to-b from-transparent to-pink-50 rounded-full bg-opacity-10 shadow-lg overflow-y-hidden'>
-                <img src={shikimori} className='h-full w-full saturate-150' alt='shikimori'></img>
+          <div className="h-1/2 w-full md:w-1/2 md:h-full sm:h-1/2 sm:w-full p-4">
+            <div className='h-full w-full bg-pink-50 bg-opacity-30 rounded-xl flex justify-center'>
+              <img src={ shikimori } className='h-full w-auto' alt="Shikomori"></img>
             </div>
           </div>
-          <div className='w-full md:h-5/6 sm:h-full h-full md:w-2/5 sm:w-full flex items-end md:items-center sm:items-end p-4'>
-              <div className='w-full -mt-28'>
-                <h1 className='ff-rowdies text-slate-50 text-2xl m-4 cursor-pointer'>Hello, I'm <span className='text-pink-500'>PapiChans</span></h1>
-
-              </div>
+          <div className="h-1/2 w-full md:w-1/2 md:h-full sm:h-1/2 sm:w-full p-4 flex items-start md:items-center justify-center lg:justify-start md:justify-start">
+            <div className='block mt-0 md:-mt-52'>
+              <h1 className='ff-rowdies font-bold text-2xl md:text-4xl sm:text-3xl text-slate-50 text-center md:text-start'>Hi, im <span className='text-pink-500'>PapiChans</span></h1>
+              <p className='ff-poppins font-medium text-lg md:text-xl text-slate-50 text-center md:text-start'>Web Developer</p>
+              <p className='ff-poppins font-light text-md text-slate-50 md:text-start text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, itaque tenetur quaerat sunt voluptatem praesentium suscipit quidem veniam repellat soluta.</p>
+              <div className='flex w-full h-12 bg-slate-400'></div>
+            </div>
           </div>
         </div>
       </div>

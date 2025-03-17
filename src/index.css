@@ -53,11 +53,20 @@
   }
 }
 
+@keyframes figure-appear {
+  from
+  {
+    translate: -30px 0;
+    opacity: 0;
+  }
+  to 
+  {
+    translate: 0 0;
+    opacity: 100;
+  }
+}
+
 #navbar {
   animation-name: navbar-appear;
   animation-duration: 1s;
-}
-
-.h-img {
-  height: 40rem;
 }
