@@ -147,19 +147,29 @@ export function NavbarMenu({ toggleMenu }) {
 export function Home() {
   return (
     <>
-      <div id="home" className="h-screen w-full pt-20 px-8 bg-gradient-to-b from-pink-400 to-pink-100">
+      <div id="home" className="h-screen w-full pt-16 px-8 bg-gradient-to-b from-pink-400 to-pink-100">
         <div className='w-full h-full block md:flex sm:block'>
           <div className="h-1/2 w-full md:w-1/2 md:h-full sm:h-1/2 sm:w-full p-4">
             <div className='h-full w-full bg-pink-50 bg-opacity-30 rounded-xl flex justify-center'>
-              <img src={ shikimori } className='h-full w-auto' alt="Shikomori"></img>
+              <img src={ shikimori } className='h-full w-auto cursor-pointer transition-all ease-in-out hover:translate-x-1 hover:brightness-105 saturate-150' alt="Shikomori"></img>
             </div>
           </div>
           <div className="h-1/2 w-full md:w-1/2 md:h-full sm:h-1/2 sm:w-full p-4 flex items-start md:items-center justify-center lg:justify-start md:justify-start">
-            <div className='block mt-0 md:-mt-52'>
-              <h1 className='ff-rowdies font-bold text-2xl md:text-4xl sm:text-3xl text-slate-50 text-center md:text-start'>Hi, im <span className='text-pink-500'>PapiChans</span></h1>
-              <p className='ff-poppins font-medium text-lg md:text-xl text-slate-50 text-center md:text-start'>Web Developer</p>
-              <p className='ff-poppins font-light text-md text-slate-50 md:text-start text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, itaque tenetur quaerat sunt voluptatem praesentium suscipit quidem veniam repellat soluta.</p>
-              <div className='flex w-full h-12 bg-slate-400'></div>
+            <div className='block mt-0 md:-mt-20'>
+              <h1 className='my-0 md:my-4 ff-rowdies font-bold text-2xl md:text-4xl sm:text-3xl text-slate-50 text-center md:text-start'>Hi, im <span className='text-pink-500'>PapiChans</span></h1>
+              <p className='my-0 md:my-4 ff-rowdies font-light text-lg md:text-xl text-slate-50 text-center md:text-start'>Web Developer</p>
+              <p className='my-0 md:my-4 ff-poppins font-light text-md text-slate-50 md:text-start text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, itaque tenetur quaerat sunt voluptatem praesentium suscipit quidem veniam repellat soluta.</p>
+              <div className='my-0 md:my-4 flex w-full h-16 items-center justify-center md:justify-start px-1'>
+                <div className='cursor-pointer w-12 h-12 rounded-full border-pink-500 border-2 bg-slate-50 transition-all ease-in-out hover:bg-slate-200 flex justify-center items-center mr-5'><ion-icon name="logo-discord" size="large" className="text-pink-400"></ion-icon></div>
+                <div className='cursor-pointer w-12 h-12 rounded-full border-pink-500 border-2 bg-slate-50 transition-all ease-in-out hover:bg-slate-200 flex justify-center items-center mr-5'><ion-icon name="logo-facebook" size="large" className="text-pink-400"></ion-icon></div>
+                <div className='cursor-pointer w-12 h-12 rounded-full border-pink-500 border-2 bg-slate-50 transition-all ease-in-out hover:bg-slate-200 flex justify-center items-center mr-5'><ion-icon name="logo-tiktok" size="large" className="text-pink-400"></ion-icon></div>
+                <div className='cursor-pointer w-12 h-12 rounded-full border-pink-500 border-2 bg-slate-50 transition-all ease-in-out hover:bg-slate-200 flex justify-center items-center mr-5'><ion-icon name="logo-linkedin" size="large" className="text-pink-400"></ion-icon></div>
+              </div>
+              <div className='my-0 md:my-4 flex w-full h-12 transition-all justify-center md:justify-start px-1 ease-in-out'>
+                <div className='cursor-pointer flex w-56 h-12 bg-pink-400 rounded-md transition-all ease-out hover:bg-pink-500 justify-center items-center'>
+                  <h1 className='text-slate-50 ff-rowdies font-medium'>Download CV</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>

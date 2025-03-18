@@ -45,3 +45,8 @@
 - March 17, 2025
 - Adding the Content for Home (Incomplete)
 - Remove glow CSS
+
+
+**v0.0.9**
+- March 18, 2025
+- Home Content Completed
