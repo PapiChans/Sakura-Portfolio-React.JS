@@ -46,7 +46,12 @@
 - Adding the Content for Home (Incomplete)
 - Remove glow CSS
 
-
 **v0.0.9**
 - March 18, 2025
 - Home Content Completed
+
+**v0.0.10**
+- March 19, 2025
+- Add Footer JSX
+- Add Home Animations
+- Home Content Adjustments

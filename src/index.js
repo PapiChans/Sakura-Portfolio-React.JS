@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {Navbar, NavbarMenu, Home, About} from './Main';
+import {Navbar, NavbarMenu, Home, About, Footer} from './Main';
 
 const main = ReactDOM.createRoot(document.getElementById('main'));
 main.render(
@@ -10,5 +10,6 @@ main.render(
     <NavbarMenu />
     <Home />
     <About />
+    <Footer />
   </React.StrictMode>
 );
