@@ -1,7 +1,33 @@
 import './Main.css';
 import logo from './images/sakura-logo.png';
 import shikimori from './images/figure/Shikimori_cropped.png';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+
+export function TypedComponent() {
+  const typedElement = useRef(null); // Create a ref for the element
+
+  useEffect(() => {
+    if (window.Typed) {
+      const options = {
+        strings: ["Web Developer", "Quality Assurance Tester", "Web Designer"],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true,
+        cursorChar: ""
+      };
+
+      // Initialize Typed.js on the referenced element
+      const typed = new window.Typed(typedElement.current, options);
+
+      // Cleanup Typed.js when the component is unmounted
+      return () => {
+        typed.destroy();
+      };
+    }
+  }, []);
+
+  return <span ref={typedElement} className='text-pink-400' id="autotype">Web Developer</span>;
+}
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -157,7 +183,7 @@ export function Home() {
           <div className="h-1/2 w-full md:w-1/2 md:h-full sm:h-1/2 sm:w-full p-4 flex items-start md:items-center justify-center lg:justify-start md:justify-start">
             <div className='block mt-0 md:-mt-20'>
               <h1 className='text-animation text-animation-1 my-0 md:my-4 ff-rowdies font-bold text-2xl md:text-4xl sm:text-3xl text-slate-50 text-center md:text-start'>Hi, im <span className='text-pink-500'>PapiChans</span></h1>
-              <p className='text-animation text-animation-2 my-0 md:my-4 ff-rowdies font-light text-lg md:text-xl text-slate-50 text-center md:text-start'>Web Developer</p>
+              <p className='text-animation text-animation-2 my-0 md:my-4 ff-rowdies font-light text-lg md:text-xl text-slate-50 text-center md:text-start'>I'm a <TypedComponent /></p>
               <p className='text-animation text-animation-3 my-0 md:my-4 ff-poppins font-light text-md text-slate-50 md:text-start text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, itaque tenetur quaerat sunt voluptatem praesentium suscipit quidem veniam repellat soluta.</p>
               <div className='text-animation text-animation-4 my-0 md:my-4 flex w-full h-16 items-center justify-center md:justify-start px-1'>
                 <div className='cursor-pointer w-12 h-12 rounded-full border-pink-500 border-2 bg-slate-50 transition-all ease-in-out hover:bg-pink-400 flex justify-center items-center mr-5'><ion-icon name="logo-discord" size="large" className="text-pink-400 hover:text-slate-50"></ion-icon></div>
@@ -181,8 +207,8 @@ export function Home() {
 export function About() {
   return (
     <>
-      <div id="about" className="h-screen w-full bg-slate-50 p-12">
-        Hello World
+      <div id="about" className="h-screen w-full bg-slate-50 px-4 pt-20">
+        <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>About</h1>
       </div>
     </>
   )
@@ -191,8 +217,8 @@ export function About() {
 export function Footer() {
   return (
   <>
-    <div className='h-8 w-full bg-slate-800 flex justify-center items-center ff-poppins cursor-pointer'>
-      <p className='text-slate-50 font-light'>Created by <a href="https://github.com/papichans" target="_blank" rel="noreferrer"><span className='text-pink-200'>PapiChans</span></a></p>
+    <div className='h-6 w-full bg-slate-800 flex justify-center items-center ff-poppins cursor-pointer'>
+      <p className='text-slate-50 font-light text-sm'>Created by <a href="https://github.com/papichans" target="_blank" rel="noreferrer"><span className='text-pink-200'>PapiChans</span></a></p>
     </div>
   </>
   )

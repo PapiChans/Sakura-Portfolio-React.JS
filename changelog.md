@@ -55,3 +55,9 @@
 - Add Footer JSX
 - Add Home Animations
 - Home Content Adjustments
+
+**v0.0.11**
+- March 20, 2025
+- Added New Library: Type.JS
+- Add Type on Home
+- Add Component
