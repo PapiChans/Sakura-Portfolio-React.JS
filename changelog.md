@@ -61,3 +61,10 @@
 - Added New Library: Type.JS
 - Add Type on Home
 - Add Component
+  
+**v0.0.12**
+- March 21, 2025
+- Add Sitri Smart Icon
+- add About and Skills Content
+- Moved, "Download CV" at "About" Section
+- Removed unused Animation.

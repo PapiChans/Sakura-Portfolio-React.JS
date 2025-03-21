@@ -61,7 +61,7 @@
   }
   50%
   {
-    translate: 10px 0;
+    translate: 20px 0;
   }
   100% 
   {
@@ -103,10 +103,6 @@
 
 .text-animation-4 {
   animation-delay: 1.7s;
-}
-
-.text-animation-5 {
-  animation-delay: 1.9s;
 }
 
 #navbar {

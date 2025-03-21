@@ -1,6 +1,7 @@
 import './Main.css';
 import logo from './images/sakura-logo.png';
 import shikimori from './images/figure/Shikimori_cropped.png';
+import sitri from './images/figure/Sitri-Smart.jpg';
 import { useState, useEffect, useRef } from 'react';
 
 export function TypedComponent() {
@@ -182,7 +183,7 @@ export function Home() {
           </div>
           <div className="h-1/2 w-full md:w-1/2 md:h-full sm:h-1/2 sm:w-full p-4 flex items-start md:items-center justify-center lg:justify-start md:justify-start">
             <div className='block mt-0 md:-mt-20'>
-              <h1 className='text-animation text-animation-1 my-0 md:my-4 ff-rowdies font-bold text-2xl md:text-4xl sm:text-3xl text-slate-50 text-center md:text-start'>Hi, im <span className='text-pink-500'>PapiChans</span></h1>
+              <h1 className='text-animation text-animation-1 my-0 md:my-4 ff-rowdies font-bold text-2xl md:text-4xl sm:text-3xl text-slate-50 text-center md:text-start'>Hi, im <span className='text-pink-400'>PapiChans</span></h1>
               <p className='text-animation text-animation-2 my-0 md:my-4 ff-rowdies font-light text-lg md:text-xl text-slate-50 text-center md:text-start'>I'm a <TypedComponent /></p>
               <p className='text-animation text-animation-3 my-0 md:my-4 ff-poppins font-light text-md text-slate-50 md:text-start text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, itaque tenetur quaerat sunt voluptatem praesentium suscipit quidem veniam repellat soluta.</p>
               <div className='text-animation text-animation-4 my-0 md:my-4 flex w-full h-16 items-center justify-center md:justify-start px-1'>
@@ -190,11 +191,6 @@ export function Home() {
                 <div className='cursor-pointer w-12 h-12 rounded-full border-pink-500 border-2 bg-slate-50 transition-all ease-in-out hover:bg-pink-400 flex justify-center items-center mr-5'><ion-icon name="logo-facebook" size="large" className="text-pink-400 hover:text-slate-50"></ion-icon></div>
                 <div className='cursor-pointer w-12 h-12 rounded-full border-pink-500 border-2 bg-slate-50 transition-all ease-in-out hover:bg-pink-400 flex justify-center items-center mr-5'><ion-icon name="logo-tiktok" size="large" className="text-pink-400 hover:text-slate-50"></ion-icon></div>
                 <div className='cursor-pointer w-12 h-12 rounded-full border-pink-500 border-2 bg-slate-50 transition-all ease-in-out hover:bg-pink-400 flex justify-center items-center mr-5'><ion-icon name="logo-linkedin" size="large" className="text-pink-400 hover:text-slate-50"></ion-icon></div>
-              </div>
-              <div className='text-animation text-animation-5 my-0 md:my-4 flex w-full h-12 transition-all justify-center md:justify-start px-1 ease-in-out'>
-                <div className='cursor-pointer flex w-56 h-10 bg-pink-400 rounded-md transition-all ease-out hover:bg-pink-500 justify-center items-center'>
-                  <h1 className='text-slate-50 ff-rowdies font-medium'>Download CV</h1>
-                </div>
               </div>
             </div>
           </div>
@@ -207,8 +203,69 @@ export function Home() {
 export function About() {
   return (
     <>
-      <div id="about" className="h-screen w-full bg-slate-50 px-4 pt-20">
+      <div id="about" className="h-auto w-full bg-slate-50 px-4 pt-20">
         <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>About</h1>
+        <div className='h-full w-full block md:flex'>
+          <div className='h-1/2 md:h-full w-full md:w-1/2 flex justify-center items-center md:items-start p-4'>
+            <div className='h-56 md:h-80 sm:h-72 w-56 md:w-80 sm:w-72 bg-pink-200 rounded-xl cursor-pointer mt-0 md:mt-8 border-pink-400 border-4'>
+              <img src={ sitri } alt="Sitri-smart" className='h-full w-full rounded-xl saturate-150'></img>
+            </div>
+          </div>
+          <div className='h-1/2 md:h-full w-full md:w-1/2 flex justify-center md:justify-start items-start p-4'>
+            <div className='w-full h-auto block justify-center md:justify-start mt-4 md:mt-12'>
+              <h1 className='mb-4 ff-rowdies font-medium text-pink-400 text-3xl text-center md:text-start'>PapiChans</h1>
+              <p className='mb-4 ff-poppins text-slate-900 text-md font-light text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat fuga mollitia modi vitae voluptatibus doloremque error consequuntur aut! Dolorum fuga nobis temporibus ducimus hic eius odit sit laboriosam eaque enim.</p>
+              <div className='w-full flex justify-center md:justify-start'>
+                <div className='cursor-pointer flex w-56 h-10 bg-pink-400 rounded-md transition-all ease-out hover:bg-pink-500 justify-center items-center'>
+                  <h1 className='text-slate-50 ff-rowdies font-medium'>Download CV</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export function Skills() {
+  return (
+    <>
+      <div id="skills" className="h-auto w-full bg-slate-50 px-4 pt-20">
+        <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>What I do?</h1>
+        <p className='text-center ff-poppins text-md font-light text-slate-800'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur natus fugit.</p>
+        <div className='h-auto w-full grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 place-items-center p-4 mt-4'>
+          <div className='h-56 w-56 flex justify-center items-center border-4 border-pink-300 bg-slate-100 text-pink-500 rounded-lg cursor-pointer hover:bg-pink-400 hover:text-slate-50 transition-all ease-in-out'>
+            <div className='block'>
+              <div className='flex justify-center'>
+                <ion-icon className='text-6xl text-center' name="desktop-outline"></ion-icon>
+              </div>
+              <div className='block'>
+                <p className='text-lg font-light ff-rowdies text-center'>Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div className='h-56 w-56 flex justify-center items-center border-4 border-pink-300 bg-slate-100 text-pink-500 rounded-lg cursor-pointer hover:bg-pink-400 hover:text-slate-50 transition-all ease-in-out'>
+            <div className='block'>
+              <div className='flex justify-center'>
+                <ion-icon className='text-6xl text-center' name="reader-outline"></ion-icon>
+              </div>
+              <div className='block'>
+                <p className='text-lg font-light ff-rowdies text-center'>Quality Assurance Tester</p>
+              </div>
+            </div>
+          </div>
+          <div className='h-56 w-56 flex justify-center items-center border-4 border-pink-300 bg-slate-100 text-pink-500 rounded-lg cursor-pointer hover:bg-pink-400 hover:text-slate-50 transition-all ease-in-out'>
+            <div className='block'>
+              <div className='flex justify-center'>
+                <ion-icon className='text-6xl text-center' name="color-palette-outline"></ion-icon>
+              </div>
+              <div className='block'>
+                <p className='text-lg font-light ff-rowdies text-center'>Web Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )
