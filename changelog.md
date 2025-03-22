@@ -68,3 +68,8 @@
 - add About and Skills Content
 - Moved, "Download CV" at "About" Section
 - Removed unused Animation.
+
+**v0.0.13**
+- March 22, 2025
+- Add Skills Layout on Skills Section
+- Intiating "Experiences" Section

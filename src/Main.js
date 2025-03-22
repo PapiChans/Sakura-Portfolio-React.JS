@@ -203,7 +203,7 @@ export function Home() {
 export function About() {
   return (
     <>
-      <div id="about" className="h-auto w-full bg-slate-50 px-4 pt-20">
+      <div id="about" className="h-auto w-full bg-slate-50 px-12 pt-20">
         <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>About</h1>
         <div className='h-full w-full block md:flex'>
           <div className='h-1/2 md:h-full w-full md:w-1/2 flex justify-center items-center md:items-start p-4'>
@@ -231,7 +231,7 @@ export function About() {
 export function Skills() {
   return (
     <>
-      <div id="skills" className="h-auto w-full bg-slate-50 px-4 pt-20">
+      <div id="skills" className="h-auto w-full bg-slate-50 px-12 pt-20 pb-4">
         <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>What I do?</h1>
         <p className='text-center ff-poppins text-md font-light text-slate-800'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur natus fugit.</p>
         <div className='h-auto w-full grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 place-items-center p-4 mt-4'>
@@ -266,6 +266,73 @@ export function Skills() {
             </div>
           </div>
         </div>
+        <h1 className='ff-rowdies text-3xl font-medium text-slate-500 mt-4'>Skills</h1>
+        <ul className='ff-poppins text-md text-slate-900 ml-0 md:ml-8 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4'>
+            <li className='mt-4 block w-full'>
+              <div className='flex'>
+                <p className='text-slate-600 w-1/2 text-md text-start'>Skill 1</p>
+                <p className='text-pink-500 w-1/2 text-md text-end'>75%</p>
+              </div>
+              <div className='bg-slate-200 w-full h-2 rounded-xl'>
+                <div className='w-9/12 h-2 bg-pink-500 rounded-xl'></div>
+              </div>
+            </li>
+            <li className='mt-4 block w-full'>
+              <div className='flex'>
+                <p className='text-slate-600 w-1/2 text-md text-start'>Skill 2</p>
+                <p className='text-pink-500 w-1/2 text-md text-end'>50%</p>
+              </div>
+              <div className='bg-slate-200 w-full h-2 rounded-xl'>
+                <div className='w-6/12 h-2 bg-pink-500 rounded-xl'></div>
+              </div>
+            </li>
+            <li className='mt-4 block w-full'>
+              <div className='flex'>
+                <p className='text-slate-600 w-1/2 text-md text-start'>Skill 3</p>
+                <p className='text-pink-500 w-1/2 text-md text-end'>75%</p>
+              </div>
+              <div className='bg-slate-200 w-full h-2 rounded-xl'>
+                <div className='w-9/12 h-2 bg-pink-500 rounded-xl'></div>
+              </div>
+            </li>
+            <li className='mt-4 block w-full'>
+              <div className='flex'>
+                <p className='text-slate-600 w-1/2 text-md text-start'>Skill 4</p>
+                <p className='text-pink-500 w-1/2 text-md text-end'>83%</p>
+              </div>
+              <div className='bg-slate-200 w-full h-2 rounded-xl'>
+                <div className='w-10/12 h-2 bg-pink-500 rounded-xl'></div>
+              </div>
+            </li>
+            <li className='mt-4 block w-full'>
+              <div className='flex'>
+                <p className='text-slate-600 w-1/2 text-md text-start'>Skill 5</p>
+                <p className='text-pink-500 w-1/2 text-md text-end'>25%</p>
+              </div>
+              <div className='bg-slate-200 w-full h-2 rounded-xl'>
+                <div className='w-3/12 h-2 bg-pink-500 rounded-xl'></div>
+              </div>
+            </li>
+            <li className='mt-4 block w-full'>
+              <div className='flex'>
+                <p className='text-slate-600 w-1/2 text-md text-start'>Skill 6</p>
+                <p className='text-pink-500 w-1/2 text-md text-end'>100%</p>
+              </div>
+              <div className='bg-slate-200 w-full h-2 rounded-xl'>
+                <div className='w-full h-2 bg-pink-500 rounded-xl'></div>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </>
+  )
+}
+
+export function Experiences() {
+  return (
+    <>
+      <div id="experiences" className="h-auto w-full bg-slate-50 px-4 pt-20">
+        <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>Experiences</h1>
       </div>
     </>
   )
