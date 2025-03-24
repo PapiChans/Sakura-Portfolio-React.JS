@@ -73,3 +73,8 @@
 - March 22, 2025
 - Add Skills Layout on Skills Section
 - Intiating "Experiences" Section
+
+**v0.0.14**
+- March 24, 2025
+- Add "Projects" Section
+- "Experiences" Section content completed

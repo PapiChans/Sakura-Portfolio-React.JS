@@ -333,10 +333,115 @@ export function Experiences() {
     <>
       <div id="experiences" className="h-auto w-full bg-slate-50 px-4 pt-20">
         <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>Experiences</h1>
+        <div className='w-full h-auto block my-8'>
+          <ul className='block px-4 w-full h-full md:overflow-y-hidden overflow-y-visible'>
+              <li className='block md:flex justify-center w-full md:h-52 h-auto md:mt-0 mt-8'>
+                <div className='block md:w-5/12 w-full md:h-full h-20'>
+                  <h1 className='ff-rowdies text-pink-400 font-medium text-3xl text-start md:text-end mb-2'>Position</h1>
+                  <p className='ff-poppins text-slate-800 font-light text-md text-start md:text-end'>April, 2025</p>
+                </div>
+                <div className='h-0 w-0 md:h-full md:w-1/12 md:block hidden'>
+                  <div className='flex justify-center'>
+                    <div className='h-4 w-4 mt-1 bg-pink-400 rounded-full'></div>
+                  </div>
+                  <div className='h-full flex justify-center'>
+                    <div className='h-full w-1 bg-slate-700'></div>
+                  </div>
+                </div>
+                <div className='block md:w-5/12 md:h-full h-auto w-full'>
+                  <h1 className='ff-poppins text-medium md:text-lg text-md text-slate-700 mb-4'>Company Name</h1>
+                  <p className='ff-poppins text-light md:text-md text-sm text-slate-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem aperiam, quidem inventore voluptatibus minima nulla odio deserunt incidunt? Harum quaerat, expedita mollitia necessitatibus iure possimus porro.</p>
+                </div>
+              </li>
+              <li className='block md:flex justify-center w-full md:h-52 h-auto md:mt-0 mt-8'>
+                <div className='block md:w-5/12 w-full md:h-full h-20'>
+                  <h1 className='ff-rowdies text-pink-400 font-medium text-3xl text-start md:text-end mb-2'>Position</h1>
+                  <p className='ff-poppins text-slate-800 font-light text-md text-start md:text-end'>April, 2025</p>
+                </div>
+                <div className='h-0 w-0 md:h-full md:w-1/12 md:block hidden'>
+                  <div className='flex justify-center'>
+                    <div className='h-4 w-4 mt-1 bg-pink-400 rounded-full'></div>
+                  </div>
+                  <div className='h-full flex justify-center'>
+                    <div className='h-full w-1 bg-slate-700'></div>
+                  </div>
+                </div>
+                <div className='block md:w-5/12 md:h-full h-auto w-full'>
+                  <h1 className='ff-poppins text-medium md:text-lg text-md text-slate-700 mb-4'>Company Name</h1>
+                  <p className='ff-poppins text-light md:text-md text-sm text-slate-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem aperiam, quidem inventore voluptatibus minima nulla odio deserunt incidunt? Harum quaerat, expedita mollitia necessitatibus iure possimus porro.</p>
+                </div>
+              </li>
+              <li className='block md:flex justify-center w-full md:h-52 h-auto md:mt-0 mt-8'>
+                <div className='block md:w-5/12 w-full md:h-full h-20'>
+                  <h1 className='ff-rowdies text-pink-400 font-medium text-3xl text-start md:text-end mb-2'>Position</h1>
+                  <p className='ff-poppins text-slate-800 font-light text-md text-start md:text-end'>April, 2025</p>
+                </div>
+                <div className='h-0 w-0 md:h-full md:w-1/12 md:block hidden'>
+                  <div className='flex justify-center'>
+                    <div className='h-4 w-4 mt-1 bg-pink-400 rounded-full'></div>
+                  </div>
+                  <div className='h-full flex justify-center'>
+                    <div className='h-full w-1 bg-slate-700'></div>
+                  </div>
+                </div>
+                <div className='block md:w-5/12 md:h-full h-auto w-full'>
+                  <h1 className='ff-poppins text-medium md:text-lg text-md text-slate-700 mb-4'>Company Name</h1>
+                  <p className='ff-poppins text-light md:text-md text-sm text-slate-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem aperiam, quidem inventore voluptatibus minima nulla odio deserunt incidunt? Harum quaerat, expedita mollitia necessitatibus iure possimus porro.</p>
+                </div>
+              </li>
+              <li className='block md:flex justify-center w-full md:h-52 h-auto md:mt-0 mt-8'>
+                <div className='block md:w-5/12 w-full md:h-full h-20'>
+                  <h1 className='ff-rowdies text-pink-400 font-medium text-3xl text-start md:text-end mb-2'>Position</h1>
+                  <p className='ff-poppins text-slate-800 font-light text-md text-start md:text-end'>April, 2025</p>
+                </div>
+                <div className='h-0 w-0 md:h-full md:w-1/12 md:block hidden'>
+                  <div className='flex justify-center'>
+                    <div className='h-4 w-4 mt-1 bg-pink-400 rounded-full'></div>
+                  </div>
+                  <div className='h-full flex justify-center'>
+                    <div className='h-full w-1 bg-slate-700'></div>
+                  </div>
+                </div>
+                <div className='block md:w-5/12 md:h-full h-auto w-full'>
+                  <h1 className='ff-poppins text-medium md:text-lg text-md text-slate-700 mb-4'>Company Name</h1>
+                  <p className='ff-poppins text-light md:text-md text-sm text-slate-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem aperiam, quidem inventore voluptatibus minima nulla odio deserunt incidunt? Harum quaerat, expedita mollitia necessitatibus iure possimus porro.</p>
+                </div>
+              </li>
+              <li className='block md:flex justify-center w-full md:h-52 h-auto md:mt-0 mt-8'>
+                <div className='block md:w-5/12 w-full md:h-full h-20'>
+                  <h1 className='ff-rowdies text-pink-400 font-medium text-3xl text-start md:text-end mb-2'>Position</h1>
+                  <p className='ff-poppins text-slate-800 font-light text-md text-start md:text-end'>April, 2025</p>
+                </div>
+                <div className='h-0 w-0 md:h-full md:w-1/12 md:block hidden'>
+                  <div className='flex justify-center'>
+                    <div className='h-4 w-4 mt-1 bg-pink-400 rounded-full'></div>
+                  </div>
+                  <div className='h-full flex justify-center'>
+                    <div className='h-full w-1 bg-slate-700'></div>
+                  </div>
+                </div>
+                <div className='block md:w-5/12 md:h-full h-auto w-full'>
+                  <h1 className='ff-poppins text-medium md:text-lg text-md text-slate-700 mb-4'>Company Name</h1>
+                  <p className='ff-poppins text-light md:text-md text-sm text-slate-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem aperiam, quidem inventore voluptatibus minima nulla odio deserunt incidunt? Harum quaerat, expedita mollitia necessitatibus iure possimus porro.</p>
+                </div>
+              </li>
+          </ul>
+        </div>
       </div>
     </>
   )
 }
+
+export function Projects() {
+  return (
+    <>
+      <div id="projects" className="h-screen w-full bg-slate-50 px-4 pt-20">
+       <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>Projects</h1>
+
+      </div>
+    </>
+  )
+}  
 
 export function Footer() {
   return (
