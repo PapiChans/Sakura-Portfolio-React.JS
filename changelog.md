@@ -78,3 +78,7 @@
 - March 24, 2025
 - Add "Projects" Section
 - "Experiences" Section content completed
+
+**v0.0.14.1**
+- March 25, 2025
+- Add "Contact" Sections

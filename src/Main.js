@@ -435,9 +435,23 @@ export function Experiences() {
 export function Projects() {
   return (
     <>
-      <div id="projects" className="h-screen w-full bg-slate-50 px-4 pt-20">
+      <div id="projects" className="h-auto w-full bg-slate-50 px-4 pt-20">
        <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>Projects</h1>
+          <div className='p-4 mt-1 w-full h-auto grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 place-items-center'>
+            <div className='h-72 md:w-60 w-64 border-pink-300 border-4 rounded-xl bg-slate-200 block cursor-pointer transition-all ease-in-out hover:-translate-y-1'>
 
+            </div>
+          </div>
+      </div>
+    </>
+  )
+}
+
+export function Contact() {
+  return (
+    <>
+      <div id="contact" className="h-auto w-full bg-slate-50 px-4 pt-20">
+       <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>Reach me</h1>
       </div>
     </>
   )
