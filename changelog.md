@@ -82,3 +82,9 @@
 **v0.0.14.1**
 - March 25, 2025
 - Add "Contact" Sections
+
+**v0.0.15**
+- March 27, 2025
+- "Projects" Section content completed
+- Replace more Compatible IonIcons Library
+- Remove Unused Script

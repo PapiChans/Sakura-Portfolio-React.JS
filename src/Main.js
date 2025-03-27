@@ -1,6 +1,7 @@
 import './Main.css';
 import logo from './images/sakura-logo.png';
 import shikimori from './images/figure/Shikimori_cropped.png';
+import background from './images/background/background-1.jpg';
 import sitri from './images/figure/Sitri-Smart.jpg';
 import { useState, useEffect, useRef } from 'react';
 
@@ -438,8 +439,59 @@ export function Projects() {
       <div id="projects" className="h-auto w-full bg-slate-50 px-4 pt-20">
        <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>Projects</h1>
           <div className='p-4 mt-1 w-full h-auto grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 place-items-center'>
-            <div className='h-72 md:w-60 w-64 border-pink-300 border-4 rounded-xl bg-slate-200 block cursor-pointer transition-all ease-in-out hover:-translate-y-1'>
-
+            <div className='h-72 md:w-60 w-64 border-pink-300 border-4 rounded-xl bg-slate-200 hover:bg-slate-100 block cursor-pointer transition-all ease-in-out hover:-translate-y-1'>
+              <div className='w-full h-3/6'>
+                <img alt='background' src={ background } className='w-full h-full' ></img>
+              </div>
+              <div className='p-4'>
+                <h1 className='ff-rowdies font-medium text-pink-400 text-center text-2xl'>Project Name</h1>
+                <p className='ff-poppins font-light text-slate-800 text-md text-center'>April 1, 2025</p>
+              </div>
+            </div>
+            <div className='h-72 md:w-60 w-64 border-pink-300 border-4 rounded-xl bg-slate-200 hover:bg-slate-100 block cursor-pointer transition-all ease-in-out hover:-translate-y-1'>
+              <div className='w-full h-3/6'>
+                <img alt='background' src={ background } className='w-full h-full' ></img>
+              </div>
+              <div className='p-4'>
+                <h1 className='ff-rowdies font-medium text-pink-400 text-center text-2xl'>Project Name</h1>
+                <p className='ff-poppins font-light text-slate-800 text-md text-center'>April 1, 2025</p>
+              </div>
+            </div>
+            <div className='h-72 md:w-60 w-64 border-pink-300 border-4 rounded-xl bg-slate-200 hover:bg-slate-100 block cursor-pointer transition-all ease-in-out hover:-translate-y-1'>
+              <div className='w-full h-3/6'>
+                <img alt='background' src={ background } className='w-full h-full' ></img>
+              </div>
+              <div className='p-4'>
+                <h1 className='ff-rowdies font-medium text-pink-400 text-center text-2xl'>Project Name</h1>
+                <p className='ff-poppins font-light text-slate-800 text-md text-center'>April 1, 2025</p>
+              </div>
+            </div>
+            <div className='h-72 md:w-60 w-64 border-pink-300 border-4 rounded-xl bg-slate-200 hover:bg-slate-100 block cursor-pointer transition-all ease-in-out hover:-translate-y-1'>
+              <div className='w-full h-3/6'>
+                <img alt='background' src={ background } className='w-full h-full' ></img>
+              </div>
+              <div className='p-4'>
+                <h1 className='ff-rowdies font-medium text-pink-400 text-center text-2xl'>Project Name</h1>
+                <p className='ff-poppins font-light text-slate-800 text-md text-center'>April 1, 2025</p>
+              </div>
+            </div>
+            <div className='h-72 md:w-60 w-64 border-pink-300 border-4 rounded-xl bg-slate-200 hover:bg-slate-100 block cursor-pointer transition-all ease-in-out hover:-translate-y-1'>
+              <div className='w-full h-3/6'>
+                <img alt='background' src={ background } className='w-full h-full' ></img>
+              </div>
+              <div className='p-4'>
+                <h1 className='ff-rowdies font-medium text-pink-400 text-center text-2xl'>Project Name</h1>
+                <p className='ff-poppins font-light text-slate-800 text-md text-center'>April 1, 2025</p>
+              </div>
+            </div>
+            <div className='h-72 md:w-60 w-64 border-pink-300 border-4 rounded-xl bg-slate-200 hover:bg-slate-100 block cursor-pointer transition-all ease-in-out hover:-translate-y-1'>
+              <div className='w-full h-3/6'>
+                <img alt='background' src={ background } className='w-full h-full' ></img>
+              </div>
+              <div className='p-4'>
+                <h1 className='ff-rowdies font-medium text-pink-400 text-center text-2xl'>Project Name</h1>
+                <p className='ff-poppins font-light text-slate-800 text-md text-center'>April 1, 2025</p>
+              </div>
             </div>
           </div>
       </div>
