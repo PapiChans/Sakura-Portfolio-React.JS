@@ -88,3 +88,8 @@
 - "Projects" Section content completed
 - Replace more Compatible IonIcons Library
 - Remove Unused Script
+
+**v1.0.0**
+- March 28, 2025
+- "Contact" Section content completed
+- Declaration of Project Finished

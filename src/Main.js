@@ -334,7 +334,7 @@ export function Experiences() {
     <>
       <div id="experiences" className="h-auto w-full bg-slate-50 px-4 pt-20">
         <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>Experiences</h1>
-        <div className='w-full h-auto block my-8'>
+        <div className='w-full h-auto block mt-8'>
           <ul className='block px-4 w-full h-full md:overflow-y-hidden overflow-y-visible'>
               <li className='block md:flex justify-center w-full md:h-52 h-auto md:mt-0 mt-8'>
                 <div className='block md:w-5/12 w-full md:h-full h-20'>
@@ -504,6 +504,43 @@ export function Contact() {
     <>
       <div id="contact" className="h-auto w-full bg-slate-50 px-4 pt-20">
        <h1 className='text-center ff-rowdies text-4xl font-light text-slate-500'>Reach me</h1>
+       <div className='block md:flex w-full h-full p-8 bg-pink-50 mt-4 rounded-md'>
+          <div className='w-full md:w-1/2 h-1/2 md:h-full px-4 md:px-8 py-2 md:py-8'>
+            <form>
+              <div className='block mb-6 w-full h-full'>
+                <label className='ff-rowdies text-pink-400 font-medium text-2xl'>Subject</label>
+                <input type='text' className='w-full h-10 rounded-md pl-4 ff-poppins text-sm mt-1' maxLength={40} placeholder='Subject' />            
+              </div>
+              <div className='block mb-6 w-full h-full'>
+                <label className='ff-rowdies text-pink-400 font-medium text-2xl'>Message</label>
+                <textarea type='text' rows={11} cols={50} className='w-full rounded-md pl-4 pt-3 ff-poppins text-sm mt-1' placeholder='Enter your message' />            
+              </div>
+              <div className='block mb-6 w-full h-full'>
+                <button type='button' className='cursor-pointer flex w-full md:w-56 h-10 bg-pink-400 rounded-md transition-all ease-out hover:bg-pink-500 justify-center items-center'>
+                  <h1 className='text-slate-50 ff-rowdies font-medium'>Send Message</h1>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div className='w-full md:w-1/2 h-1/2 md:h-full px-4 md:px-8 py-2 md:py-8'>
+            <div className='block mb-6 w-full h-full'>
+              <h1 className='ff-rowdies text-xl text-slate-500 font-medium'>PapiChans</h1>
+              <p className='ff-poppins text-md text-slate-800 font-light mt-2'>Web Developer</p>
+            </div>
+            <div className='block mb-6 w-full h-full'>
+              <h1 className='ff-rowdies text-xl text-slate-500 font-medium'>Phone</h1>
+              <p className='ff-poppins text-md text-slate-800 font-light mt-2'>0912-345-6789</p>
+            </div>
+            <div className='block mb-6 w-full h-full'>
+              <h1 className='ff-rowdies text-xl text-slate-500 font-medium'>Email</h1>
+              <p className='ff-poppins text-md text-slate-800 font-light mt-2'>papichans@email.com</p>
+            </div>
+            <div className='block mb-6 w-full h-full'>
+              <h1 className='ff-rowdies text-xl text-slate-500 font-medium'>Website</h1>
+              <p className='ff-poppins text-md text-slate-800 font-light mt-2'>sample-email.com</p>
+            </div>
+          </div>
+       </div>
       </div>
     </>
   )
